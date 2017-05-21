@@ -1,0 +1,126 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+.full-width-bg{background-image: url(../images/blurred-1834820_1280.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}  
+
+
+.spaching-60 {
+  padding: 60px 0;
+}
+.full-width-bg {
+  margin: 60px 0;
+}
+.margin-minus {
+  margin-top: -70px;
+  margin-bottom: -70px;
+  padding: 69px;
+  font-size: 20px;
+  color: #fff;
+}
+.dark-bg {
+  background: #2B3040;
+}
+body {
+  color: #fff;
+}
+.request-btn {
+  display: inline-block;
+  border: 3px solid #EAB127;
+  padding: 10px 30px;
+  text-transform: capitalize;
+}
+.dark-bg .request-btn {
+  margin-top: 30px;
+  color: #fff;
+  margin-left: 35px;
+}
+.margin-minus.dark-bg {
+}
+.author-name {
+  font-family: roboto;
+  font-size: 20px;
+  margin-top: 20px;
+  position: relative;
+  padding-left: 40px;
+}
+.author-name span {
+  font-size: 70%;
+  color: #6C7AA8;
+}
+.box-content p {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 25px;
+}
+.box-content h2 {
+  font-weight: 800;
+  font-size: 35px;
+}
+.author-name:before {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 30px;
+  background: #fff;
+  top: 50%;
+  left: 0;
+}
+.box-content {
+  position: relative;
+  padding: 26px 35px;
+}
+.box-content:before {
+  position: absolute;
+  content: '';
+  height: 50px;
+  width: 50px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  top: 0;
+  left: -40px;
+}
+.box-content:after {
+  position: absolute;
+  content: '';
+  height: 50px;
+  width: 50px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  bottom: 0;
+  right: -40px;
+}
