@@ -1,0 +1,94 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+.singleslide-item{background-image: url(../images/doctor-1149149_1920.jpg)}
+
+.singleslide-item {
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.slide-text-area {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.slide-text {
+  background: #1A80CA;
+  padding-bottom: 82px;
+  padding-top: 50px;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  padding-right: 20px;
+  padding-left: 23px;
+  opacity: 0.5;         /* ??????? */
+}
+.boxed-btn {
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid;
+  padding: 10px 20px;
+  display: inline-block;
+  font-weight: 600;
+  background: #392105;
+  margin-top: 30px;
+}
+
+.slide-text:before {
+  background: #1A80CA;
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 1000%;
+  top: 0;
+  left: -1000%;
+}
+.slide-text:after {
+  position: absolute;
+  content: '';
+  background: #1A80CA;
+  height: 20px;
+  width: 20px;
+  top: 40px;
+  right: -9px;
+  transform�: ;
+  transform: rotate(45deg);
+}
