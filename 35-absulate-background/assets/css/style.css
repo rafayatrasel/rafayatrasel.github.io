@@ -1,0 +1,139 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+
+.section-absulate-bg{background-image: url(../images/bulb-2287759_1920.jpg)} 
+.section-absulate-bg-2{background-image: url(../images/hand-2223109_1920.jpg) }
+
+
+.section-padding {
+  background: #222931;
+  color: #fff;
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+  padding: 80px 0;
+}
+.box-content h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.readmore-btn {
+  border: 1px solid;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px;
+  display: inline-block;
+}
+.readmore-btn {
+}
+.box-content h1, .box-content p {
+  color: ;
+  margin-bottom: 30px;
+}
+.readmore-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.box-content {
+  position: relative;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+.box-content:before {
+  position: absolute;
+  content: '';
+  height: 80px;
+  width: 2px;
+  background: #767A7F;
+  left: 0;
+  top: 0;
+}
+.section-absulate-bg {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  right: 0;
+  background-size: cover;
+  background-color: #ddd;
+  background-position: center;
+  z-index: 2;
+}
+.absulate-bg-left .section-absulate-bg {
+  right: auto;
+  left: 0;
+}
+.section-padding.absulate-bg-left .box-content {
+  margin-left: 80px;
+  /*! padding-right: 0; */
+}
+.section-absulate-bg:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #333;
+  opacity: 0.5;
+  z-index: -1;
+}
+.box-content.arrow-1:before {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-top: 18px solid transparent;
+  border-left: 20px solid #222931 ;
+  content: '';
+  border-bottom: 20px solid transparent;
+  top: 0;
+  background: none;
+  left: 570px;
+  z-index: 3;
+	
+}.box-content.arrow-2:before {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-top: 18px solid transparent;
+  border-right: 20px solid #222931;
+  border-bottom: 20px solid transparent;
+  content: '';
+  top: 0;
+  background: none;
+  left:-114px;
+  z-index: 3;
+}
