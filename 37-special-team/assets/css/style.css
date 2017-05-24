@@ -1,0 +1,88 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+.team-bg-1{background-image: url(../images/team-member-441x441.jpg)}
+.team-bg-2{background-image: url(../images/3-350x300.jpg)}
+.team-bg-3{background-image: url(../images//oneman-380x340.jpg)}
+
+
+.section-title::before {
+  position: absolute;
+  content: '';
+  background: #333;
+  height: 1px;
+  width: 75%;
+  top: -50px;
+  right: 0;
+}
+.section-title {
+  text-transform: uppercase;
+  position: relative;
+  font-size: 30px;
+  text-align: right;
+  transform: rotate(-90deg);
+  margin-top: 68px;
+}
+.team-bg {
+  height: 250px;
+  background-color: #DDD;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+}
+.bordered-content {
+  border: 1px solid;
+	padding-bottom: 12px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 70%;
+  text-align: center;
+}
+.bordered-content h3 {
+  background-color: #fff;
+	display: inline-block;}
+  
+.section-title-heading h3 {
+  margin-top: -11px;
+  padding: 0 10px;
+}
+
+.col-md-4:nth-child(2) .single-team-box {
+  margin-top: 100px;
+}
+.section-padding {
+  padding: 60px 0;
+}
