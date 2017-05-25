@@ -1,0 +1,154 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.gradient-wrapper-overlay{background-image: url(../images/purple-paint-strokes-28737-2560x1440.jpg)}
+.gradient-wrapper-overlay:after{
+	background: #340044;
+	background: -moz-linear-gradient(-45deg, #340044 0%, #0072e5 99%);
+	background: -webkit-linear-gradient(-45deg, #340044 0%,#0072e5 99%);
+	background: linear-gradient(135deg, #340044 0%,#0072e5 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340044', endColorstr='#0072e5',GradientType=1 );
+}
+
+
+.gradient-wrapper-overlay {
+  position: relative;
+  z-index: 1;
+}
+.gradient-wrapper-overlay:after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  z-index: -1;
+  opacity:0.6;
+}
+
+
+.logo img {
+  max-height: 88px;
+}
+.header-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.header-menu li {
+  display: inline-block;
+  font-size: 19px;
+}
+.header-menu li a {
+  color: #fff;
+  display: block;
+  font-weight: 300;
+  opacity: 0.5;
+  padding: 20px;
+}
+.header-menu li a:hover {
+  opacity: 1;
+}
+.header-area {
+}
+.header-area {
+  position: relative;
+  z-index: 1;
+  padding: 8px 0;
+}
+.header-area:after {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  content: '';
+  background: #fff;
+  left: 0;
+  bottom: 0;
+  opacity: 0.2;
+}
+
+
+.mobile-screen {
+  position: absolute;
+  bottom: 0;
+  right: 151px;
+  max-height: 519px;
+
+}
+.hero-text {
+  max-width: 370px;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 98px;
+
+}
+.hero-text h2 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 55px;
+  margin-bottom: 40px;
+}
+.hero-text p {
+  opacity: 0.5;
+  line-height: 1.5;
+}
+.bordered-btn {
+  border: 1px solid;
+}
+.underline-btn {
+  text-decoration: underline;
+}
+
+
+.box-btn a {
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 23px;
+  display: inline-block;
+}
+.box-btn {
+  margin-top: 50px;
+}
+
+.hero-text>img {
+  max-height: 100p;
+}
