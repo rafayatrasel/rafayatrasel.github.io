@@ -1,0 +1,173 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+.single-slide-box{background-image: url(../images/berries-1845626_1920.jpg)}
+.single-slide-box.slide-2{background-image: url(../images/candies-1835632_1920.jpg)}
+
+
+
+.logo img {
+  max-width: 73px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 0;
+}
+.logo span {
+  display: block;
+  font-size: 80%;
+  font-style: italic;
+}
+body {
+  /*! color: #fff; */
+}
+
+.logo {
+  position: relative;
+  padding-left: 100px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-top: 13px;
+}
+.right-contact-box {
+  position: relative;
+  font-size: 18px;
+  display: inline-block;
+  text-align: left;
+  padding-left: 40px;
+  margin-left: 40px;
+  margin-top: 12px;
+}
+.right-contact-box i.fa {
+  position: absolute;
+  top: 0;
+  right: ;
+  left: 0;
+  font-size: 25px;
+}
+.header-area {
+  padding: 20px 0;
+  position: absolute;
+  top: 0;
+  left: 80px;
+  z-index: 99;
+}
+.single-slide-box {
+  padding: 200px 0;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  max-height: 700px;
+	
+
+}
+.slide-text {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  padding: 80px;
+}
+.slide-text:after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  top: 0;
+  left: 0;
+  content: '';
+  opacity: .5;
+  z-index: -1;
+  padding: ;
+}
+.slide-text h1 {
+  
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.recipe-btn {
+  display: inline-block;
+  background: #F18000;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+.slide-text .recipe-btn {
+  margin-top: 25px;
+}
+
+
+.homepage-slide .owl-dots div {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background: black;
+  margin: 4px;
+  border-radius: 50%;
+}
+.homepage-slide .owl-dots div.active {
+  background: #F18000;
+}
+.owl-dot {
+}
+.homepage-slide .owl-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.homepage-slide .owl-nav div {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  font-size: 60px;
+  line-height: 60px;
+  margin-top: -30px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.homepage-slide .owl-nav div.owl-next {
+  left: auto;
+  left: ;
+  right: 50px;
+}
+.homepage-slide .owl-nav div {
+}
+.homepage-slide:hover .owl-nav div{
+ opacity: 1; 
+}
