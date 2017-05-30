@@ -1,0 +1,137 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+	.header-menu ul{margin: -60px;}
+	.header-menu ul li {
+	display: inline-block;
+	padding: 10px;
+		
+}
+	.header-menu {
+	margin-right: 60px;
+}
+	.hero-area {
+	padding: 200px 250px;
+	padding-left: 0;
+	padding-bottom: 74px;
+		
+}
+	.single-content-box {
+	
+	margin-left: 194px;
+	margin-bottom: 20px;
+	
+}
+	.service-area {
+	
+	max-height: 1710px;
+}
+	.onetime-job-content {
+	margin-left: 110px;
+}
+	.brand-logo ul{
+		padding: 40px 0;
+	}
+	.brand-logo li {
+	
+	padding: 12px;
+}
+	.footer-menu ul{
+		margin: -63px 0;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .header-menu ul li:first-child, .header-menu ul li:nth-child(2), .header-menu ul li:nth-child(3) {
+	display: none;
+}
+	.header-logo {
+	padding: 0 60px;
+	margin-bottom: 50px;
+}
+	.header-menu {
+	padding: 0 30px;
+}
+	.header-menu li.active{
+		border: 2px solid #fff;
+		background: none;
+	}
+	.hero-area {
+	padding: 10px 10px;
+	text-align: center;
+	margin-top: 100px;
+}
+	.hero-content h2 {
+	font-size: 25px;
+}
+	.hero-content p {
+	font-size: 15px;
+}
+	.one-time-job-area {
+	display: none;
+}
+	.service-area{
+	max-height: 1900px;
+	}
+	.service-intro h2 {
+	font-size: 25px;
+}
+	.service-area {
+	padding-top: 50px;
+}
+	.brand-area {
+	display: none;
+		
+}
+	.project-area h4 {
+	font-size: 12px;
+}
+	.project-btn {
+	padding: 10px 15px;
+	font-size: 13px;
+}
+	.footer-logo {
+	padding: 0 60px;
+}
+	.footer-area {
+	max-height: 190px;
+	
+}
+	.footer-menu ul li {
+	padding: 27px 10px;
+}
+	.footer-menu a {
+	font-size: 12px;
+}
+	.single-testimonial-box {
+	margin-top: 47px;
+	padding: 29px;
+}
+	.single-testimonial-box > p {
+	font-size: 14px;
+	margin-top: 20px;
+}
+	.single-testimonial-box h2 {
+	font-size: 25px;
+}
+	.address span:first-child {
+	font-size: 14px;
+}
+	.job-area {
+	max-height: 628px;
+	min-height: 380px;
+}
+	.testimonial-area .owl-dots {
+	bottom: -30px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
