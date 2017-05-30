@@ -208,7 +208,12 @@ body{
   background-image: url(../images/grp1.png)
 }
 
-
+.content-bg-2:after{
+	background-image: url(../images/grp2.png);
+}
+.content-bg-3:after{
+	background-image: url(../images/grp3.png);
+}
 
 .single-content-box:after {
   position: absolute;
