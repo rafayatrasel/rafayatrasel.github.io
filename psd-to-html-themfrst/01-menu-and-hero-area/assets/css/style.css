@@ -1,0 +1,117 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+	font-family: 'Khula', sans-serif;
+	font-weight: 400;
+	
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 15px;
+	font-family: 'Khula', sans-serif;
+	font-weight: 300;
+	color:#999999;
+}
+
+
+/*============MAIN STYLE START HERE=============*/
+
+
+/*============HEADER AREA START HERE=============*/
+
+
+
+.header-area {
+  margin-top: 20px;
+}
+.header-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-menu li {
+  display: inline-block;
+  position: relative;
+}
+.header-menu li a {
+  display: block;
+  color: #888;
+  padding: 12px 15px;
+}
+.header-menu li a:hover {
+  color: #EF476F;
+}.header-menu li.active  a{
+  color: #EF476F;
+}
+.boxed-btn, input[type=submit] {
+  background: #ef476f;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12.5px 25px;
+  border-radius: 3px;
+}
+.hero-left {
+  font-weight: 300;
+  max-width: 450px;
+}
+.hero-left h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #373737;
+  margin-bottom: 30px;
+  margin-top: 28px;
+}
+.hero-left h1 {
+}
+input[type=url] {
+  border: 1px solid #efefef;
+  padding: 10px 25px;
+}
+input[type="submit"] {
+  border: none;
+  /*! padding: 12.5px; */
+}
+.hero-cheaker-form {
+  margin-top: 40px;
+}
+.hero-left h1 {
+  /*! margin-bottom: 30px; */
+}
+.hero-area {
+  padding: 150px 0;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+
+
+/*============HEADER AREA END HERE=============*/
