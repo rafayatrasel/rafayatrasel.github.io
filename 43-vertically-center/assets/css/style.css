@@ -1,0 +1,181 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland|Roboto:300,400,700,900');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Mr De Haviland', cursive;*/
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+.hero-area-logo h3{font-family: 'Mr De Haviland', cursive}
+.wellcome-hero-area{
+	background-image: url(../images/main.jpg);
+	background-size: cover;
+}
+
+
+
+body, html {
+  height: 100%;
+  color: #fff;
+}
+.wellcome-hero-area {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.logo a {
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  font-size: 35px;
+  padding-bottom: 3px;
+  margin: 0;
+}
+.logo a:after {
+  position: absolute;
+  content: '';
+  background: #fff;
+  height: 2px;
+  width: 100%;
+  left: 00;
+  bottom: 0;
+}
+.header-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: ;
+  display: inline-block;
+}
+.header-menu li {
+  display: inline-block;
+  padding: 14px 25px;
+}
+.header-menu ul li a {
+  /*! display: block; */
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+}
+.header-menu ul li a:after {
+  position: absolute;
+  content: '';
+  cba: ;
+  background: #fff;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  border: ;
+  bottom: 0;
+ 
+}
+.logo h1 {
+  margin: 0;
+}
+.wellcome-hero-area:after {
+  position: absolute;
+  color: ;
+  content: '';
+  height: ;
+  background: #333;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.header-area {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+
+.hero-area-table {
+  position: absolute;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.hero-area-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.scrol-to-down {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  color: #fff;
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
+  margin-left: -20px;
+  opacity: 0.5;
+}
+.hero-area-logo {
+}
+.hero-area-logo h2 {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 42px;
+  font-weight: 800;
+}
+.hero-area-logo h3 {
+  font-size: 100px;
+  color: #C59C5E;
+  line-height: 11px;
+  text-transform: capitalize;
+}
+
+
+.bordered-area i.fa {
+  float: left;
+}
+.bordered-area {
+  overflow: hidden;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.bordered-area-right {
+}
+.bordered-area-right, .bordered-area-left {
+  height: 2px;
+  width: 14%;
+  background: #fff;
+  float: left; /* <<< Problem is here - ফ্লোট লেফট করলে আইকন হারিয়ে যাচ্ছে*/
+}
