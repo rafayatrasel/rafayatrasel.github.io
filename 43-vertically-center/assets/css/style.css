@@ -168,14 +168,69 @@ body, html {
 }
 .bordered-area {
   overflow: hidden;
-  max-width: 350px;
+  max-width: 140px;
   margin: 0 auto;
 }
-.bordered-area-right {
+
+
+.bordered-area-left, .bordered-area-right {
+    float: left;
+    height: 2px;
+    width: 35%;
+    background: #fff;
+    margin: 10px 0px;
+	position: relative;
 }
-.bordered-area-right, .bordered-area-left {
-  height: 2px;
-  width: 14%;
-  background: #fff;
-  float: left; /* <<< Problem is here - ফ্লোট লেফট করলে আইকন হারিয়ে যাচ্ছে*/
+.bordered-area-left {
+	margin-left: 8px;
+	margin-right: 10px;
+}
+.bordered-area-right {
+  margin-left: 10px;
+}
+.bordered-area i {
+    float: left;
+    font-size: 13px;
+    margin-top: 4px;
+    color: #c9a163
+}
+
+
+.hero-area-logo p {
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+
+.bordered-area-right::after {
+	width: 0;
+	height: 0; 
+	border-top: 50px solid transparent; 
+	border-left: 100px solid red; 
+	border-bottom: 50px solid transparent;
+	position: absolute;
+	content: '';
+}
+.bordered-area-left::before {
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-right: 7px solid #fff;
+	border-bottom: 7px solid transparent;
+	position: absolute;
+	content: '';
+	left: -6px;
+	top: -6px;
+}
+
+.bordered-area-right::after {
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-left: 7px solid #fff;
+	border-bottom: 7px solid transparent;
+	position: absolute;
+	content: '';
+	right: -2px;
+	bottom: -6px;
 }
