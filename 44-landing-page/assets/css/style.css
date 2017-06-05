@@ -1,0 +1,178 @@
+/* Base CSS */
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+.wellcome-area{background-image: url(../images/radio.jpg)}
+
+
+.header-logo img {
+  margin: ;
+  max-width: 40px;
+  margin-right: 10px;
+}
+.header-logo a {
+  font-size: 20px;
+  color: #B21217;
+}
+.header-menu li {
+  display: inline-block;
+}
+.header-menu ul {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+.header-menu li a {
+  display: block;
+  padding: ;
+  font-size: 17px;
+  padding: 7px 25px;
+  color: #333;
+}
+.header-menu li.bordered-btn a {
+  border: 1px solid;
+  border-radius: 28px;
+  color: #B91519;
+}
+.wellcome-area {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  background-size: cover;
+}
+.wellcome-area:after {
+  position: absolute;
+  content: '';
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  z-index: -1;
+}
+html, body {
+  height: 100%;
+}
+
+
+.header-area {
+  padding-top: 20px;
+}
+.copyright-area {
+  position: absolute;
+  background: #42413E;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #ddd;
+  font-size: 16px;
+  padding: 5px 0;
+}
+.copyright-area a {
+  color: #DDD;
+}
+.copyright-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.copyright-area li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+
+.hero-area-table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: table;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+}
+.hero-area-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.hero-text h1 {
+  color: #3E4140;
+  font-size: 50px;
+  line-height: 55px;
+}
+
+
+.hero-text h4 {
+  font-weight: 300;
+  opacity: 0.8;
+  font-size: 19px;
+}
+.email-form {
+  margin-top: 100px;
+	
+}
+
+.email-form p {
+  font-size: 15px;
+  font-weight: 100;
+}
+input[type=email] {
+  border: none;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.email-form button {
+  border: none;
+  padding: 10px 20px;
+  background: #B71418;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 5px;
+  font-size: ;
+  font-weight: 700;
+}
+.social-icon a {
+  display: inline-block;
+  padding: 10px 8px;
+  font-size: 15px;
+  color: #3E4140;
+}
