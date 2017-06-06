@@ -1,0 +1,150 @@
+/* Base CSS */
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Oswald:200,300,400,500,600,700');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+}
+body {
+
+}
+a:hover { text-decoration: none;
+	color:#fff;
+
+
+}
+body{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+body{background: #343433;}
+
+.section-padding {
+  padding: 80px 0;
+	
+}
+.dark-bg {
+  background: #343433;
+  color: #fff;
+	
+}
+.trailer-text h2 {
+}
+.trailer-text h2 {
+  font-size: 38px;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 80px;
+}
+.trailer-text h2:after {
+  position: absolute;
+  content: '';
+  background: #FC4C49;
+  bottom: -8px;
+  left: 0;
+  height: 2px;
+  width: 20px;
+}
+.trailer-text p {
+  font-size: 20px;
+  color: #BAB7B7;
+}
+.bordered-btn {
+  border: 2px solid #FC4C49;
+  color: #fff;
+  padding: 10px 18px;
+  display: inline-block;
+  text-transform: capitalize;
+  width: 178px;
+  font-size: 17px;
+  margin-top: 40px;
+}
+.bordered-btn i {
+  margin-left: 36px;
+  float: right;
+}
+
+
+.colored-box {
+  background: #FC4C49;
+  position: absolute;
+  right: 160px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+  height: 250px;
+  padding-top: 20px;
+  top: -120px;
+}
+.trailer-info {
+  position: relative;
+}
+.trailer-info img {
+  max-width: 500px;
+  margin-top: 130px;
+  margin-left: 50px;
+  position: relative;
+  z-index: 1;
+}
+.colored-box p {
+  opacity: 0.7;
+}
+p.price-text {
+  color: #fff;
+  opacity: 1;
+  font-size: 30px;
+}
+.absulate-shopping-cart {
+  position: absolute;
+  left: -20px;
+  top: 39px;
+  background: #FFFFFF;
+  padding: 18px;
+  box-shadow: 0 0 10px #905d5d;
+  color: black;
+}
+
+.fetured-trailer-carousel .owl-dots div:nth-child(1) span:before{content:"01"}
+.fetured-trailer-carousel .owl-dots div:nth-child(2) span:before{content:"02"}
+.fetured-trailer-carousel .owl-dots div:nth-child(3) span:before{content:"03"}
+
+
+.fetured-trailer-carousel .owl-dots div {
+  border-left: 2px solid #bab7b7;
+  padding: 15px;
+}
+.fetured-trailer-carousel .owl-dots div.active {
+  border-color: #FC4C49;
+}
+.fetured-trailer-carousel .owl-dots {
+  position: absolute;
+  top: 30%;
+  right: -72px;
+}
