@@ -1,0 +1,136 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+
+
+
+.pricing-table {
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+.single-pricing-box {
+  width: 33.33333%;
+  float: left;
+  box-shadow: 0 0 10px;
+  position: relative;
+  z-index: 1;
+}
+body {
+  color: #6f6f6f;
+  font-size: 17px;
+  line-height: 1.7;
+}
+.priching-heading {
+  background: #F8F8F8;
+  padding: 40px;
+}
+.priching-heading h2 {
+  color: #333;
+  font-weight: 400;
+  font-size: 30px;
+}
+.priching-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.priching-content {
+  padding: 40px;
+  text-transform: capitalize;
+  line-height: 1.8;
+}
+.bordered-btn {
+  display: inline-block;
+  color: #FC103C;
+  border: 1px solid;
+  border-radius: 25px;
+  padding: 8px 15px;
+  margin-top: 30px;
+}
+active.priching-heading {
+}
+.active .priching-heading {
+  background: #FC103C;
+  color: #fff;
+ 
+  margin-top: 0;
+}
+.active .priching-heading h2 {
+  color: #fff;
+}
+.section-padding {
+  padding: 80px 0;
+}
+.single-pricing-box.active {
+  position: relative;
+  z-index: 2;
+  margin-left: -.5%;
+  margin-right: -0.5%;
+  width: 34.33333%;
+  background: #fff;
+}
+
+
+.active .priching-content {
+  padding: 55px 60px;
+}
+.active .bordered-btn {
+  background: #FC103C;
+  color: #fff;
+}
+.single-pricing-box.active:after {
+  content: "Featured";
+  top: 32px;
+  position: absolute;
+  left: ;
+  right: -32px;
+  color: #FC103C;
+  background: #fff;
+  transform: rotate(45deg);
+  font-size: 15px;
+  padding: 0px 50px;
+}
+.single-pricing-box.active {
+  overflow: hidden;
+  margin-top: 0;
+}
+.single-pricing-box {
+  margin-top: 30px;
+	border-radius: 5px;
+}
