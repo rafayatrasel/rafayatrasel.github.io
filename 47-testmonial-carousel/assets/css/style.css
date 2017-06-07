@@ -1,0 +1,117 @@
+/* Base CSS */
+
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Oswald:200,300,400,500,600,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+	font-family: 'Oswald', sans-serif;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+	font-family: 'Droid Serif', serif;
+}
+
+.section-bg{background-image: url(../images/bg.jpg);background-position: center}
+
+
+
+.user-avatar img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.user-avatar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+body {
+  color: #fff;
+}
+.user-comment {
+  text-align: center;
+}
+.user-comment p {
+  font-size: 18px;
+  line-height: 25px;
+  font-style: italic;
+}
+.user-comment h4 {
+  color: #c3c3c3;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.user-comment h4 span {
+  display: block;
+  font-size: 80%;
+  margin-top: 5px;
+}
+h4 {
+}
+.single-testimonial-box {
+  height: 350px;
+}
+.section-padding {
+  padding: 80px 0;
+}
+
+
+.testimonial-carousel .owl-dots div {
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+}
+.testimonial-carousel .owl-dots {
+  text-align: center;
+	margin-top: 50px;
+}
+.testimonial-carousel .owl-dots div.active {
+  background: #9c9898;
+}
+
+.testimonial-carousel::before {
+	position: absolute;
+	font-family: fontawesome;
+	content: "\f10d";
+	top: 140px;
+	left: -40px;
+	font-size: 30px;
+}
+.testimonial-carousel::after {
+	position: absolute;
+	font-family: fontawesome;
+	content: "\f10e";
+	bottom: 130px;
+	right: -40px;
+	font-size: 30px;
+}
