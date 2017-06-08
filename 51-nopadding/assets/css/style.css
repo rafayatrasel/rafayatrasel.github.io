@@ -1,0 +1,114 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+.bg-1{background-image: url(../images/blurred-1834820_1280.jpg)}
+.bg-2{background-image: url(../images//blurred-1869401_1280.jpg)}
+.bg-3{background-image: url(../images/bulb-2287759_1920.jpg)}
+.bg-4{background-image: url(../images/camera-1846696_640.jpg)}
+.bg-5{background-image: url(../images/candies-1835632_1920.jpg)}
+.bg-6{background-image: url(../images/caterpillar-1209006_1920.jpg)}
+
+
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.single-box {
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+}
+.single-box.half {
+  height: 300px;
+}
+.row.nopadding {
+  margin: 0;
+}
+.row.nopadding .col-md-4 {
+  padding: 0;
+}
+.single-box-hover {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  left: 5%;
+  top: 5%;
+  height: 90%;
+  width: 90%;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+.single-box-hover:after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background: #1d1d1d;
+  opacity: 0.7;
+  z-index: -1;
+}
+.single-box-tabel {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.single-box-tabelcell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.single-box-hover:hover {
+  /*! visibility: visible; */
+  /*! opacity: 1; */
+}
+.single-box.bg-1 {
+}
+.single-box:hover .single-box-hover {
+  opacity: 1;
+  visibility: visible;
+}
+.single-box-tabelcell a i {
+  font-size: 30px;
+}
