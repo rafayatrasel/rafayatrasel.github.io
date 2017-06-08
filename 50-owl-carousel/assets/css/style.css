@@ -1,0 +1,149 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+.bg-1{background-image: url(../images/bulb-2287759_1920.jpg)}
+.bg-2{background-image: url(../images/candies-1835632_1920.jpg)}
+.bg-3{background-image: url(../images/caterpillar-1209006_1920.jpg)}
+
+
+.section-padding {
+  padding: 50px 0;
+}
+.section-title {
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+}
+h2 {
+}
+.section-title h2 {
+  font-weight: 300;
+  font-size: 35px;
+}
+.section-title h4 {
+  opacity: 0.8;
+}
+.section-title span {
+  color: #FC103C;
+}
+.section-title {
+}
+.listing-carousel.owl-carousel.owl-theme.owl-loaded {
+}
+.single-carousel-box {
+  position: relative;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  color: #fff;
+}
+.single-carousel-box:after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: '';
+  background: #333;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  z-index: -1;
+}
+.listing-hover {
+  position: absolute;
+  left: 70px;
+  width: 100%;
+  bottom: 30px;
+}
+.listing-hover h2 {
+  font-weight: 300;
+}
+.listing-hover h4 {
+  opacity: 0.8;
+}
+.bordered-btn {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 23px;
+  padding: 10px 20px;
+}
+
+
+
+.listing-carousel .owl-stage-outer {
+  overflow: inherit;
+}
+.listing-carousel-wrap {
+}
+.section-padding.listing-carousel-wrap {
+  overflow-x: hidden;
+}
+.listing-carousel::before, .listing-carousel::after {
+  position: absolute;
+  het: ;
+  height: 100%;
+  width: 500%;
+  top: 0;
+  left: -500%;
+  background: #fff;
+  content: '';
+  z-index: 1;
+  opacity: 0.5;
+}
+.listing-carousel::after{
+  left:auto;
+  right: -500%;
+}
+
+
+
+.listing-carousel .owl-dots div {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  border: 1px solid #C2C2C2;
+  margin: 5px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.listing-carousel .owl-controls {
+  text-align: center;
+}
+.listing-carousel .owl-dots div.active {
+  background: #333;
+}
