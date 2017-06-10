@@ -1,0 +1,95 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+	background-color: #2A3E51;
+}
+
+
+
+
+/*DROP DOWN MENU*/
+
+
+.main-menu{padding-top: 50px}
+.main-menu ul {
+  background: #32495F;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.main-menu li {
+  list-style: none;
+  display: inline-block;
+}
+.main-menu a {
+  color: #fff;
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+
+.main-menu li {
+  position: relative;
+}
+.main-menu li ul {
+  position: absolute;
+  z-index: 2;
+  top: 60px;
+  left: 0;
+  width: 150px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.main-menu li ul li {
+  display: block;
+}
+.main-menu a {
+  font-size: 15px;
+}
+.main-menu li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+.main-menu li:hover>a {
+  background: #2198DD;
+}
+.main-menu li> a {
+  transition: 0.3s;
+}
+
+.main-menu li i.fa {
+  margin-left: 35px;
+}
