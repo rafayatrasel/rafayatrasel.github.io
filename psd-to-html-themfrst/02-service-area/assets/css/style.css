@@ -1,0 +1,214 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+	font-family: 'Khula', sans-serif;
+	font-weight: 400;
+	color: #373737;
+	
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 15px;
+	font-family: 'Khula', sans-serif;
+	font-weight: 300;
+	color:#999999;
+}
+
+
+/*============MAIN STYLE START HERE=============*/
+
+
+/*============HEADER AREA START HERE=============*/
+
+
+
+.header-area {
+  margin-top: 20px;
+}
+.header-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-menu li {
+  display: inline-block;
+  position: relative;
+}
+.header-menu li a {
+  display: block;
+  color: #888;
+  padding: 12px 15px;
+}
+.header-menu li a:hover {
+  color: #EF476F;
+}.header-menu li.active  a{
+  color: #EF476F;
+}
+.boxed-btn, input[type=submit] {
+  background: #ef476f;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12.5px 23px;
+  border-radius: 3px;
+}
+.hero-left {
+  font-weight: 300;
+  max-width: 450px;
+}
+.hero-left h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #373737;
+  margin-bottom: 30px;
+  margin-top: 28px;
+}
+.hero-left h1 {
+}
+input[type=url] {
+  border: 1px solid #efefef;
+  padding: 10px 25px;
+}
+input[type="submit"] {
+  border: none;
+  /*! padding: 12.5px; */
+}
+.hero-cheaker-form {
+  margin-top: 40px;
+}
+.hero-left h1 {
+  /*! margin-bottom: 30px; */
+}
+.hero-area {
+  padding: 150px 0;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+
+
+/*============HEADER AREA END HERE=============*/
+
+/*============SERVICE AREA START HERE=============*/
+
+
+
+
+
+.section-padding {
+  padding: 100px 0;
+}
+.section-title h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section-title p {
+  font-size: 15px;
+}
+.section-title {
+  margin-bottom: 90px;
+}
+.single-service-box {
+  border: 1px solid #f3f3f3;
+  padding: 20px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+
+
+
+.service-icon {
+  font-size: 30px;
+  margin-top: 30px;
+  color: #373737;
+  transition: 0.3s;
+	
+}
+.single-service-box h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px 0;
+  color: #424242;
+}
+.single-service-box p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.read-more-btn {
+  color: #373737;
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.read-more-btn i.zmdi {
+  margin-left: 10px;
+}
+.single-service-box:hover .service-icon{
+  color: #ef476f;
+}
+
+.single-service-box:hover {
+  border-color: #EF476F;
+  transition: 0.3s;
+}
+
+.single-service-box:hover a.read-more-btn {
+  color: #EF476F;
+}
+
+h3 {
+}
+.single-service-box:hover h3 {
+  color: #EF476F;
+  transition: 0.3s;
+}
+.pdt-50 {
+  padding-top: 50px;
+}
+h2 {
+  font-size: 28px;
+}
+.pdt-50 p {
+  line-height: 1.8;
+  margin-top: 25px;
+}
+.pdt-50 a.boxed-btn {
+  /*! padding: 15px 40px; */
+  /*! display: inline-block; */
+  margin-top: 30px;
+}
+
+
+/*============SERVICE AREA END HERE=============*/
