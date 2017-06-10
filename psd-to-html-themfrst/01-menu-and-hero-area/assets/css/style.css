@@ -28,6 +28,7 @@ h6 {
     margin: 0 0 15px;
 	font-family: 'Khula', sans-serif;
 	font-weight: 400;
+	color: #373737;
 	
 }
 body {
@@ -77,7 +78,7 @@ body{
   display: inline-block;
   font-size: 14px;
   font-weight: 400;
-  padding: 12.5px 25px;
+  padding: 12.5px 23px;
   border-radius: 3px;
 }
 .hero-left {
@@ -115,3 +116,99 @@ input[type="submit"] {
 
 
 /*============HEADER AREA END HERE=============*/
+
+/*============SERVICE AREA START HERE=============*/
+
+
+
+
+
+.section-padding {
+  padding: 100px 0;
+}
+.section-title h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section-title p {
+  font-size: 15px;
+}
+.section-title {
+  margin-bottom: 90px;
+}
+.single-service-box {
+  border: 1px solid #f3f3f3;
+  padding: 20px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+
+
+
+.service-icon {
+  font-size: 30px;
+  margin-top: 30px;
+  color: #373737;
+  transition: 0.3s;
+	
+}
+.single-service-box h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px 0;
+  color: #424242;
+}
+.single-service-box p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.read-more-btn {
+  color: #373737;
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.read-more-btn i.zmdi {
+  margin-left: 10px;
+}
+.single-service-box:hover .service-icon{
+  color: #ef476f;
+}
+
+.single-service-box:hover {
+  border-color: #EF476F;
+  transition: 0.3s;
+}
+
+.single-service-box:hover a.read-more-btn {
+  color: #EF476F;
+}
+
+h3 {
+}
+.single-service-box:hover h3 {
+  color: #EF476F;
+  transition: 0.3s;
+}
+.pdt-50 {
+  padding-top: 50px;
+}
+h2 {
+  font-size: 28px;
+}
+.pdt-50 p {
+  line-height: 1.8;
+  margin-top: 25px;
+}
+.pdt-50 a.boxed-btn {
+  /*! padding: 15px 40px; */
+  /*! display: inline-block; */
+  margin-top: 30px;
+}
+
+
+/*============SERVICE AREA END HERE=============*/
