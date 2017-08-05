@@ -1,0 +1,122 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+
+
+.section-padding {
+  padding: 100px 0;
+  /*! background: #090923; */
+}
+.video-play-btn {
+  display: block;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  width: 100%;
+}
+.video-overlay {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  transform: scale(0.7);
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.video-overlay:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: '';
+  background: ;
+  background: #30303e;
+  z-index: -1;
+  opacity: 0.6;
+}
+.boxed-plus {
+  height: 30px;
+  width: 30px;
+  border: 2px solid;
+  border-radius: 50%;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.video-top-desc p {
+}
+.fa.fa-plus.boxed-plus p {
+}
+.video-overlay p {
+  opacity: 0.7;
+}
+p.video-top-desc {
+  opacity: 1;
+}
+.video-play-btn:hover .video-overlay {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+body {
+  background: #1a1244;
+}
+
+
+.video-top-desc span {
+  position: relative;
+}
+.video-top-desc span:before {
+  position: absolute;
+  top: 7px;
+  right: -29px;
+  height: 2px;
+  width: 25px;
+  content: '';
+  background: #fff;
+}
+.video-top-desc span:after {
+  position: absolute;
+  top: 7px;
+  left: -29px;
+  height: 2px;
+  width: 25px;
+  content: '';
+  background: #fff;
+}
