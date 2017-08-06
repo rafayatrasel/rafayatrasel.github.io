@@ -1,0 +1,151 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-title h2 {
+  font-weight: normal;
+}
+.testimonial-right {
+  display: ;
+}
+.testimonial-top img {
+  width: 100px;
+  display: inline-block;
+  margin-top: -40px;
+}
+.testimonial-top h3 {
+  display: inline-block;
+  text-align: left;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.testimonial-top {
+  text-align: center;
+}
+body {
+  background: #f3f3f3;
+  /*! color: #fff; */
+}
+.testimonial-top h3 span {
+  font-size: 80%;
+  text-transform: capitalize;
+  opacity: 0.7;
+  display: inline-block;
+  padding-top: 13px;
+}
+.testimonial-content p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #888;
+}
+.testimonial-content {
+  padding-top: 20px;
+  text-align: center;
+}
+.single-testimonial-item {
+  box-shadow: 0 0 10px #e1e1e1;
+  padding: 60px 80px;
+}
+.testimonial-author img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.testimonial-author h3 {
+  display: inline-block;
+  font-size: 15px;
+  color: black;
+  font-weight: normal;
+  padding-left: 5px;
+  width: 140px;
+}
+.testimonial-author h3 span {
+  font-size: 80%;
+  opacity: 0.4;
+}
+.testimonial-author ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.testimonial-author li {
+}
+.testimonial-author {
+  height: 245px;
+  overflow-y: scroll;
+}
+
+
+
+
+.testimonial-right {
+  color: #DADADA;
+  text-transform: uppercase;
+  font-size: 40px;
+  position: relative;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(270deg);
+  bottom: 318px;
+  left: -132px;
+  width: 399px;
+}
+.testimonial-right:after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  content: '';
+  background: #DADADA;
+  width: 100%;
+  height: 2px;
+}
+.testimonial-right span {
+  position: relative;
+  background: #f3f3f3;
+  z-index: 2;
+  padding-right: 10px;
+}
+span {
+}
