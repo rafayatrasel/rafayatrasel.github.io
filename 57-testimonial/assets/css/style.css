@@ -110,7 +110,11 @@ body {
   margin: 0;
   padding: 0;
 }
-.testimonial-author li {
+.testimonial-author li{
+	opacity: 0.5;
+}
+.testimonial-author li.active {
+	opacity: 1
 }
 .testimonial-author {
   height: 245px;
@@ -149,3 +153,9 @@ body {
 }
 span {
 }
+
+
+.ps > .ps__scrollbar-y-rail {
+	opacity: 1;
+}
+
