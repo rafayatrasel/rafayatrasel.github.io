@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/owl.carousel.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        
+    </head>
+    <body>
+       
+       <!-- AIzaSyBUhyQYItL9KuWi4BD5ycy5bb_mbTk6oig -->
+        <div class="section-padding">
+        	<div class="conatiner">
+        		<div class="row">
+        			<div class="col-md-12">
+        			<div id="googleMap" style="width:100%;height:400px;"></div>
+						<script>
+							function myMap() {
+							var mapOption= {
+								center:new google.maps.LatLng(23.8842989,90.2916656),
+								zoom:8,
+								scrollwheel: false,
+								styles:[
+										{ featureType: "water", stylers: [ { hue: "#F4B741"} ] },
+										{ featureType: "road", stylers: [ { hue: "#ff0000" } ] }
+									   ],
+							};
+							var map=new google.maps.Map(document.getElementById("googleMap"),mapOption);
+							}
+						</script>
+						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUhyQYItL9KuWi4BD5ycy5bb_mbTk6oig&callback=myMap"></script>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
