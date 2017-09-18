@@ -1,0 +1,117 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+body{
+	font-size: 14px;
+}
+.scetion-padding{
+	padding: 80px 0;
+}
+.map {
+	display: block;
+	height: 500px;
+	width: 100%;
+}
+
+
+.map-bg {
+  background: #343950;
+  color: #fff;
+}
+.section-title {
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+.section-desc p {
+  font-size: 15px;
+  /*! opacity: 0.4; */
+  padding-top: 16px;
+  color: #93959F;
+}
+.section-desc strong {
+  opacity: ;
+}
+p {
+}
+p {
+}
+.section-desc {
+}
+
+.section-desc strong {
+  color: #fff;
+}
+.locatin-desc {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.locatin-desc li h3 {
+  color: #CD9636;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+.locatin-desc li p {
+  text-transform: capitalize;
+  color: #6B6A7D;
+}
+.location-desc span {
+}
+.locatin-desc li h3 span {
+  font-size: 50%;
+  margin: -8px;
+}
+.locatin-desc li {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.locatin-desc li:after {
+  height: 2px;
+  width: 32%;
+  left: 0;
+  bottom: 0px;
+  background: #938D9A;
+  content: '';
+  position: absolute;
+}
+.map-bg {
+}
+.section-padding{
+	padding: 100px 0
+}
+.map {
+  margin-bottom: -130px;
+  box-shadow: 0 0 5px #000;
+}
